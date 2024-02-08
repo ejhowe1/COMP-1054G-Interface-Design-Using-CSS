@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Protest Revolution';
+    src: url('../fonts/ProtestRevolution-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Single Day';
+    src: url('../fonts/SingleDay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rocky Billy';
+    src: url('../fonts/Rockybilly.ttf') format('truetype');
+}
+
+.gold-text {
+    font-family:'Protest Revolution';
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(255, 224, 51);
+} 
+
+.purple-text {
+    font-family:'Rocky Billy';
+    color: rgb(169, 0, 247);
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../gifs/blackDiamond.gif') center center fixed;
+    background-size: 75%;
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 30px;
+}
+
+.lyrics {
+    text-align: center;
+    font-family: 'Single Day', sans-serif;
+    line-height: 2.0;
+    color: white;
+}
+
+.lyrics span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
