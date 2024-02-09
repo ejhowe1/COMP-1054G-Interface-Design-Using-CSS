@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Protest Revolution';
+    src: url('../fonts/ProtestRevolution-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Single Day';
+    src: url('../fonts/SingleDay-Regular.ttf') format('truetype');
+}
+
+.royal-purple {
+    font-family: 'Protest Revolution';
+    font-size: 30px;
+    color: rgb(190, 70, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.neon-text {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8),
+                 0 0 40px rgba(255, 255, 255, 0.8),
+                 0 0 50px rgba(255, 255, 255, 0.8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/black-diamond.jpg') center center fixed;
+        background-size: 100%;
+    }
+
+.header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 30px;
+}
+
+.lyrics {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Single Day', sans-serif;
+    line-height: 1.0;
+    color: white;
+}
+
